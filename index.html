@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Desafio Prático 01</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="container-form">
+      <h1>Conversão de números por extenso</h1>
+      <form action="#">
+
+        <div class="form-field">
+          <label for="slider">Selecione um número entre 1 e 999:</label>
+          <input type="range" id="slider" min="1" max="999" value="1" />
+        </div>
+
+        <div class="form-field">
+          <label for="inputCurrentNumber">Número atual:</label>
+          <input type="text" name="inputCurrentNumber" id="inputCurrentNumber" disabled>
+        </div>
+
+        <div class="form-field">
+          <label for="inputNumberInFull">Número por extenso:</label>
+          <input type="text" name="inputNumberInFull" id="inputNumberInFull" disabled>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
